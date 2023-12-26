@@ -1,1 +1,0 @@
-import{r as e}from"./index-767ff75a.js";function g(r,n=200){const[c,i]=e.useState(0),[o,h]=e.useState(0);return e.useEffect(()=>{const s=()=>{const t=r.current;if(!t)return;const a=t.clientWidth,d=t.clientHeight;i(a),h(d)};s();const u=setInterval(s,n);return()=>{clearInterval(u)}},[r,n]),[c,o]}export{g as u};
